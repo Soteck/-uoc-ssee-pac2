@@ -65,7 +65,7 @@ void BumpInt_Init(void(*task)(uint8_t)){
 // bit 2 Bump2
 // bit 1 Bump1
 // bit 0 Bump0
-uint8_t Bump_Read(void){
+uint8_t BumpInt_Read(void){
     // write this as part of Lab 14
 
     return 0; // replace this line
